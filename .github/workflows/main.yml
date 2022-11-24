@@ -53,5 +53,5 @@ jobs:
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID_NEXTJS }}
           vercel-args: ${{ steps.prod_or_not.outputs.vercel-args }}
-          working-directory: example/nextjs
+          working-directory: /
          
